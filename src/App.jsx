@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import { Card, CardContent } from "./components/ui/card";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "./components/ui/tabs";
 import { motion } from "framer-motion";
-import { Select, SelectTrigger, SelectContent, SelectItem } from "@/components/ui/select";
-import chaptersPT from "@/locales/pt/chapters.json";
-import chaptersEN from "@/locales/en/chapters.json";
-import chaptersES from "@/locales/es/chapters.json";
+import { Select, SelectTrigger, SelectContent, SelectItem } from "./components/ui/select";
+import chaptersPT from "./locales/pt/chapters.json";
+import chaptersEN from "./locales/en/chapters.json";
+import chaptersES from "./locales/es/chapters.json";
 
 const locales = {
   pt: chaptersPT,
